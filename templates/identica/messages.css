@@ -1,0 +1,21 @@
+#errormsg, #message {
+	width: 600px;
+	margin-left: 22%;
+	margin-right: 22%;
+	padding: 5px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+#errormsg {
+	border: 1px solid #c80000;
+	background-color: #f8e8e8;
+}
+
+#message {
+	border: 1px solid #34c800;
+	background-color: #e8f8ee;
+}

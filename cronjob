@@ -1,0 +1,9 @@
+#!/bin/bash
+
+SCRIPTPATH="/home/drsmall/sites/mycroft/feedmailer/tasks/tasks.php"
+PHPPATH="/usr/bin/php5"
+PHPOPTS="-f"
+
+$PHPPATH $PHPOPTS $SCRIPTPATH > /dev/null
+
+exit 0

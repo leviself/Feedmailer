@@ -1,0 +1,191 @@
+/** Load the Navigation Template **/
+@import url("navigation.css");
+@import url("messages.css");
+
+
+body {
+	background-color: #f0f0f0;
+}
+
+a:link { color: #002c68; }
+
+#sidebar_page {
+	margin-left: 11px;
+	margin-right: 270px;
+	margin-top: 3px;
+	padding-top: 25px;
+	background-color: #fff;
+	text-align: left;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+
+	/* Make sure the top left corner is square. */
+	-moz-border-radius-topleft: 0px;
+	-khtml-border-radius-topleft: 0px;
+	-webkit-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+
+	min-height: 300px;
+}
+
+#sidebar {
+	float: right;
+	width: 265px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: #c8e0e8;
+	text-align: left;
+
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+
+	min-height: 320px;
+	font-size: 0.9em;
+}
+
+#page {
+	margin-left: 11px;
+	margin-top: 3px;
+	padding-top: 25px;
+	background-color: #fff;
+	text-align: left;
+
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+
+	/* Make sure the top left corner is square. */
+	-moz-border-radius-topleft: 0px;
+	-khtml-border-radius-topleft: 0px;
+	-webkit-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+
+	min-height: 300px;
+}
+
+#popularfeeds {
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #e5e5e5;
+	background-color: #f1fffe;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+}
+
+#popularfeeds a:link {
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+#popularfeeds a:hover {
+	text-decoration: underline;
+}
+
+#boxpadding {
+	padding: 10px;
+}
+
+.form_help {
+	margin-left: 40px;
+	margin-top: 0;
+	margin-bottom: 25px;
+	font-size: 0.9em;
+	text-align: left;
+	font-style: italic;
+}
+
+#form_data strong {
+	font-size:0.9em;
+}
+
+
+#form_data input, #form_data select {
+	position: relative;
+	margin-left: 40px;
+}
+
+.smalltext {
+	font-size: 0.9em;
+}
+
+.submit {
+	color: #fff;
+	background-color: #98b438;
+	padding: 5px;
+	font-weight: bold;
+
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.inputbox {
+	padding: 3px 10px;
+	border: none;
+	font-size: 12px;
+	background-color: #fff;
+
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+	border: 2px solid #c4c4c4;
+
+}
+
+.footer {
+	position: relative;
+	padding: 18px;
+	padding-bottom: 0px;
+	margin-right: 270px;
+	bottom: 4px;
+	font-size:0.8em;
+}
+
+/**
+ * Debug Log
+ **/
+table#debug {
+	width: 100%;
+	border: 1px solid #000000;
+}
+
+#debug .even {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#debug .odd {
+	background-color: #d2d2d2;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#debug .even:hover {
+	background-color: #cdffbf;
+}
+
+#debug .odd:hover {
+	background-color: #cdffbf;
+}
+
+

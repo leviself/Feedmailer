@@ -1,0 +1,310 @@
+/**
+ * Name:	Wordpress Template (stylesheet.css)
+ * Description:	The cascading sheet
+ * Author:	Dr Small
+ * Access:	063, 2009 11:50PM
+*/
+
+body {
+	background-color: #214464;
+}
+
+/*
+ * Navigation
+*/
+
+#navigation {
+	height: 25px;
+	width: 100%;
+	margin-left: 6px;
+}
+
+#navigation a:link { color: #94b9db; text-decoration: none; }
+#navigation a:visited { color: #94b9db; text-decoration: none; }
+#navigation a:hover { color: #eff5fa; text-decoration: underline; }
+
+
+
+#bodywrapper {
+	background-color: #f7fafc;
+	padding: 2px;
+	-moz-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 5px;
+	border: 2px solid #000000;
+}
+
+img.headerimg {
+	height: 76px;
+	width: 300x;
+}
+
+
+/*
+ * Login Form Styles
+*/
+#login {
+	width: 320px;
+	margin-left: 35%;
+	margin-right: 35%;
+	background-color: #ffffff;
+	text-align: left;
+
+	/*
+	 * Rounded borders, credits to wordpress
+	*/
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+
+}
+
+#login_error {
+	width: 300px;
+	margin-left: 35%;
+	margin-right: 35%;
+	border: 1px solid #c80000;
+	background-color: #f8e8e8;
+	padding: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+}
+
+#login table {	width: 300px; }
+#login a:link {	color: #000101; text-decoration: none; }
+#login a:visited { color: #000101; text-decoration: none; }
+#login a:hover { color: #c8ccc8; text-decoration: underline; }
+
+#stats {
+	float: left;
+	width: 250px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: #fcfdfe;
+	text-align: left;
+
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+}
+
+
+
+#sidebar_page {
+	margin-left: 270px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background-color: #fcfdfe;
+	text-align: left;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+}
+
+
+#message {
+	width: 300px;
+	margin-left: 35%;
+	margin-right: 35%;
+	border: 1px solid #34c800;
+	background-color: #e8f8ee;
+	padding: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+}
+
+#alert {
+	width: 88%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 1px solid #538ca7;
+	background-color: #dbf4ff;
+	padding: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 5px;
+}
+
+#page {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 1px solid #e5e5e5;
+	background-color: #fcfdfe;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+}
+
+
+
+#boxpadding {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/*
+ * Dashboard
+*/
+#dashboard a.links {
+	font-size: 24px;
+	color: #000000;
+	text-decoration: none;
+}
+#dashboard a.links:hover {
+	color: #c8ccc8;
+	text-decoration: underline;
+}
+
+
+
+/*
+ * Forms
+*/
+.inputbox {
+	padding: 3px 10px;
+	border: none;
+	font-size: 22px;
+	background-color: #f7fbfd;
+	border: 1px solid #e5e5e5;
+
+}
+
+p.submit {
+	text-align: right;
+	padding-right: 10px;
+}
+
+input.submit {
+	padding: 3px 10px;
+	border: none;
+	font-size: 18px;
+	border-width: 1px;
+	border-style: solid;
+	text-decoration: none;
+	background-color: #c7daec;
+}
+
+
+/*
+ * Footer
+*/
+p.footer {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	border: 1px solid #e5e5e5;
+	background-color: #fcfdfe;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+}
+
+
+
+/*
+ * Header
+*/
+table.headertext {
+	margin-left: 20px;
+}
+
+table.headertext td {
+	width: 255px;
+	font-size: 24px;
+}
+
+table.headertext td:hover {
+	text-decoration: underline;
+}
+
+/**
+ * Pagination
+ **/
+#pagination a {
+	font-size: 24px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#pagination a:hover {
+	color: #c8ccc8;
+	text-decoration: underline;
+}
+
+/**
+ * Popular Feeds box
+ */
+
+#popularfeeds {
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #e5e5e5;
+	background-color: #f1fffe;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 5px;
+}
+
+/**
+ * Debug Log
+ **/
+table#debug {
+	width: 100%;
+	border: 1px solid #000000;
+}
+
+#debug .even {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#debug .odd {
+	background-color: #d2d2d2;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#debug .even:hover {
+	background-color: #cdffbf;
+}
+
+#debug .odd:hover {
+	background-color: #cdffbf;
+}
+
+/**
+ * OpenID Input Box
+ **/
+#openid_inputbox {
+	background: url(images/openid-16x16.png) no-repeat;
+	background-color: #f7fbfd;
+	background-position: 0 50%;
+	padding-left: 18px;
+	margin-right: 10px;
+	font-size: 22px;
+	border: 1px solid #e5e5e5;
+}
